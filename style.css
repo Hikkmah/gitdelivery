@@ -1,0 +1,220 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.brand-title{
+  font-size: x-large;
+  margin: 4rem;
+  margin-left: 10%;
+  color: white;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.navbar-links li {
+  position: relative;
+  list-style: none;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.navbar-links ul li a:hover{
+  background-color: orangered;
+  border-radius: 5px;
+  margin: 4px;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;}
+
+  .text{
+    position: absolute;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    top: 38%;
+    left: 30%;
+    color: black;
+  }
+
+  .image{
+  width: 100%; 
+  height: 350px;
+  }
+  .container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .container-item{
+    display: flex;
+    background-color: rgb(219, 211, 226);
+    font-size: 30px;
+    width: 180px;
+    height: 150px;
+    margin-top: 14px;
+  }
+  .item1{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    margin-top: 90px;
+  }
+  .container-item2{
+    display: flex;
+    background-color: rgb(219, 211, 226);
+    font-size: 30px;
+    width: 180px;
+    height: 180px;
+  }
+  .item2{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 40px;
+    margin-top: 90px;
+  }
+  .container-item3{
+    display: flex;
+    background-color: rgb(219, 211, 226);
+    font-size: 30px;
+    width: 180px;
+    height: 150px;
+    margin-top: 14px;
+  }
+  .item3{
+    color: black;
+    text-decoration: none;
+   margin: 10px;
+   margin-top: 90px;
+  }
+
+  .id{
+    padding: 0px;
+    display: flex;
+    font-size: medium;
+    height: 60px;
+    width: 70%;
+    margin-left: 250px;
+    margin-top: 2px;
+  }
+  .TRACK{
+    padding: 0px;
+    margin-left: 250px;
+    background-color: orangered;
+    height: 60px;
+    width: 70%;
+    text-align: center;
+  }
+  .track1{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 40px;
+  }
+
+  .view{
+    margin-left: 250px;
+    margin-top: 30px;
+    color: #2e73f3;
+  }
+  .view1{
+    text-decoration: none;
+  }
+
+  .fa-solid{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 35px;
+  }
+  .fa-phone-intercome{
+    position: absolute;
+  }
+
+  .fa-user{
+    position: absolute;
+    margin-top: 20px;
+  }
+  .fa-house{
+    position: absolute;
+    margin-top: 20px;
+  }
+  .fa-file-contract{
+  position: absolute;
+  margin-top: 20px;}
+
+  .fa-address-book{
+    position: absolute;
+    margin-top: 20px;}
+
+    .DIV{
+      background-color: rgb(219, 211, 226);
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+    }
+    .DIV ul{
+      margin-top: 40px;
+    }
+
+    .details{
+      position: relative;
+      margin-left: 16%;
+      margin-top: 5px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: larger;
+    }
+    .username1{
+      height: 2rem;
+    }
+    .btn{
+      width: 5rem;
+      margin-top: 3px;
+      height: 2rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: green;
+      color: white;
+      border-radius: 5px;
+      border-color: green;
+      cursor: pointer;
+
+    }
+    .account{
+      margin-left: 11%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .account-hover{
+      text-decoration: none;
+      color: forestgreen;
+    }
+    .ft{
+      text-decoration-line: none;
+    }
+    .dont{
+      text-decoration: none;
+    }

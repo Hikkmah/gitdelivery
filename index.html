@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/086a8ac1b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Delivery.com</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">
+        Holders <span style="color: orangered">Delivery</span>
+      </div>
+      <a href="a" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><i class="fa-solid fa-user"></i><a href="">Profile</a></li>
+          <li><i class="fa-solid fa-house"></i><a href="a">Home</a></li>
+          <li>
+            <i class="fa-solid fa-file-contract"></i><a href="a">About</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-address-book"></i><a href="a">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="image-container">
+      <span class="text">
+        Ship, Management, Track, <br />
+        Deliver</span
+      >
+      <img src="images/package.jpg" alt="image" class="image" />
+    </div>
+    <div class="container">
+      <div class="container-item">
+        <i class="fa-solid fa-cart-flatbed"></i
+        ><a href="a" class="item1">RATE&SHIP</a>
+      </div>
+      <div class="container-item2">
+        <i class="fa-solid fa-signal"></i><a href="a" class="item2">TRACK</a>
+      </div>
+      <div class="container-item3">
+        <i class="fa-solid fa-location-dot"></i>
+        <a href="a" class="item3" id="location" onclick="locations()">LOCATIONS</a>
+      </div>
+    </div>
+    <div class="track-id">
+      <input type="text" placeholder="TRACKING ID" class="id" />
+    </div>
+    <div class="TRACK">
+      <div><a href="#" class="track1" id="tk" onclick="track()">TRACK</a></div>
+    </div>
+    <div>
+      <form action="" class="details">
+          <label for="username">username</label
+          ><br><input type="username" name="" id="username" placeholder="username/email" class="username1" />
+        <br />
+          <label for="password">Password</label
+          ><br><input type="password" name="" id="password" placeholder="password"/>
+          <div class="erorr messge">incorrect username password</div>
+          <br>
+          <button type="submit" class="btn" id="submit">login</button>
+      </form>
+      </div>
+      <p class="account">
+        <a href="#" style="text-decoration: none;">forgot Password?</a>
+        <br>
+      <a href="#" style="text-decoration: none;">Don't have an Account?create Account</a>
+      </p>
+    <div class="view">
+      <a href="#" class="view1">VIEW WATCH LIST | NEED HELP?</a>
+    </div>
+    <div class="DIV">
+      <ul>
+        <li>My Profile</li>
+        <li>Items Ordered</li>
+        <li>List Item For Delivry</li>
+        <li>Browse Items For Sales</li>
+      </ul>
+      <div>
+        <ul>
+          <span>NEED HELP?</span>
+          <li>Help and Support</li>
+          <li>FAQS</li>
+          <li>Chat with Us</li>
+          <li>Contact Us</li>
+          <li>LEGAL AND POLICY</li>
+        </ul>
+      </div>
+    <a href="">back to the top</a>
+    <h5>copyright &copy; 2022 adeyi luqman. All right reserved</h5>
+    <script src="index.js"></script>
+    <button type="button" id="demo" onclick="document.getElementById('demo').innerHTML = Date()">click to check time</button>
+  </body>
+</html>
